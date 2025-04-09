@@ -8,4 +8,4 @@ Built a fun little project: **"If HTML Tags Were People"** 😄
 Only used `HTML` — no `CSS`, no `JS`, just pure tag-powered creativity!  
 Check it out and let me know what you think 👇
 #WebDev #HTML #CodeNewbie
-🔗 [`Click Here `](https://github.com/devxsameer/basic-projects/tree/e42b9bd475863fcfadd4a0f6bacfa5c04ddae8eb/Project%201)
+🔗 [`Click Here `](https://github.com/devxsameer/basic-projects/tree/f6db4971804937162c611c61ce37124bc4989075/Project1)
