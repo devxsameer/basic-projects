@@ -64,3 +64,12 @@
   font-weight: 700;
   margin-right: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+  .card::before {
+    transform: rotate(60deg);
+    top: -250px;
+  }
+}
