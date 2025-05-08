@@ -26,4 +26,6 @@ Check it out and let me know what you think 👇
 
 ![Profile Card Screenshot](./Project2/img/screenshot.png)
 
-## #WebDev #HTML #CSS
+#WebDev #HTML #CSS
+
+---
