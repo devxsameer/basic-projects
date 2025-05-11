@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Passions+Conflict&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 6vh;
+  background-color: rgb(255, 255, 249);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h2 {
+  font-family: "Passions Conflict", cursive;
+  font-weight: 200;
+  font-size: 48px;
+}
+.container h1 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 900;
+  font-size: 3rem;
+}
+ul.list {
+  flex: 1;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  flex: 1;
+  border: 2px solid rgba(128, 128, 128, 0.2);
+  border-bottom: none;
+  list-style: none;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.list-item:last-child {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+}
+.list-item .content {
+  flex: 1 1 200px;
+}
+.list-item .content h3 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.list-item .content p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8em;
+}
+.list-item .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  font-family: "Sour Gummy", sans-serif;
+}
+.date span:first-child {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.date span:nth-child(2) {
+  font-size: 2em;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-family: "Sour Gummy", sans-serif;
+  width: 160px;
+  height: 50px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 900px) {
+  .btn {
+    flex: 1 1 160px;
+  }
+}
