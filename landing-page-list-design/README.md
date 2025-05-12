@@ -3,7 +3,7 @@
 This is a custom-built, **fully responsive** restaurant landing page list design created as part of my learning on **Day 11** of the #100DaysOfCode challenge.
 
 - Check it out and let me know what you think 👇  
-  [`Click Here For Live Demo`](https://devxsameer.github.io/basic-projects/Project3)
+  [`Click Here For Live Demo`](https://devxsameer.github.io/basic-projects/landing-page-list-design)
 
 ---
 

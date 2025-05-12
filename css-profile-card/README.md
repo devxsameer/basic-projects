@@ -22,5 +22,5 @@ I created a simple yet visually appealing **Profile Card** using only **HTML** a
 ---
 
 Check it out and let me know what you think 👇  
-[`Click Here For Live Demo`](https://devxsameer.github.io/basic-projects/Project2)  
+[`Click Here For Live Demo`](https://devxsameer.github.io/basic-projects/css-profile-card)  
 #WebDev #HTML #CodeNewbie
