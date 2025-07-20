@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Section</title>
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="box-header">
+        <i class="header-icon bxr bxs-confused"></i>
+        <h2>FAQs</h2>
+      </div>
+      <div class="faq-card">
+        <div class="faq-header">
+          <h3>What is this website about?</h3>
+          <i class="btn bxr bxs-chevron-down"></i>
+        </div>
+        <div class="faq-main">
+          <ul>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> It's a collection of
+              beginner-friendly frontend projects.
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Built using HTML & CSS only
+              (for now).
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Designed to practice layout,
+              styling, and accessibility.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-card">
+        <div class="faq-header">
+          <h3>Why does my layout look weird?</h3>
+          <i class="btn bxr bxs-chevron-down"></i>
+        </div>
+        <div class="faq-main">
+          <ul>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Because you forgot to close a
+              div. Again.
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Because Flexbox is feeling
+              ✨emotional✨ today.
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Because CSS said “surprise!” —
+              as it does .
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-card">
+        <div class="faq-header">
+          <h3>Do I really need to learn Grid?</h3>
+          <i class="btn bxr bxs-chevron-down"></i>
+        </div>
+        <div class="faq-main">
+          <ul>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Only if you enjoy sanity and
+              organized layouts.
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i>
+              Grid is like Flexbox, but with more rules and fewer surprises.
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Yes. Your future dashboard
+              will thank you.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="faq-card">
+        <div class="faq-header">
+          <h3>How do I center a div?</h3>
+          <i class="btn bxr bxs-chevron-down"></i>
+        </div>
+        <div class="faq-main">
+          <ul>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> The eternal question. Seek
+              Flexbox. Or Grid.
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i> Or chant “margin: auto” under
+              a full moon 🌕
+            </li>
+            <li>
+              <i class="bxr bxs-arrow-right"></i>
+              Or just Google it like the rest of us do, every single time.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script>
+      const headers = document.querySelectorAll(".faq-header");
+      headers.forEach((header) => {
+        scrollHeight = header.nextElementSibling.scrollHeight;
+        header.addEventListener("click", (e) => {
+          header.parentElement.classList.toggle("expanded");
+          isExpanded = header.parentElement.classList.contains("expanded");
+          header.nextElementSibling.style.maxHeight = isExpanded
+            ? `${scrollHeight}px`
+            : "0";
+        });
+      });
+    </script>
+  </body>
+</html>

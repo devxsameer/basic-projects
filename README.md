@@ -46,3 +46,19 @@ Check it out and let me know what you think 👇
 #Flexbox #HTML #CSS
 
 ---
+
+## Project 4 - `faq-design`
+
+A simple and responsive **FAQ section** built with **HTML** and **CSS** — part of my `basic-projects` repo and #100DaysOfCode challenge.
+
+Check it out and let me know what you think 👇  
+🔗 See `faq-design` in [`my basic-projects repo`](https://github.com/devxsameer/basic-projects)  
+🔗 [`Live Demo`](https://devxsameer.github.io/basic-projects/faq-design)
+
+#### 📸 Preview
+
+![Landing Page List Design](./faq-design/screenshot.png)
+
+#100DaysOfCode #CSS #HTML #Frontend #FAQ #WebDev
+
+---
